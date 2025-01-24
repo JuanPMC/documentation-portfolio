@@ -4,7 +4,7 @@ Is the microservice that holds most of the backend activities for project Portfo
 - Get the value of a stock: 
     - Endpoint: ```/value/<ticker_id>``` 
 - Buy a stock:
-    - Endpoint: ```/buy/<ticker_id>```
+    - Endpoint: ```/buy/<ticker_id>/<ammount>```
 - Sell a stock:
     - Endpoint: ```/sell/<ticker_id>```
 - Get the portfolio information:
