@@ -18,3 +18,5 @@ Authentication must be done using googles oauth.
     - Endpoint: ```/auth/login```
 - Handle the callback from Google after user authentication
     - Endpoint: ```/auth/callback```
+## API for stock prices
+The api chosen to get the current stock price is [alphavantage](https://www.alphavantage.co/documentation/) various sources state that it has the best free tear abailable, it has many more features that might be useful in the future. It also has no apparent request limit per user.
